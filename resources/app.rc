@@ -1,0 +1,37 @@
+﻿#include "resource.h"
+#include <windows.h>
+
+IDI_ICON1 ICON "roozegaar.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1, 0, 0, 0
+PRODUCTVERSION 1, 0, 0, 0
+FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+FILEFLAGS 0x1L
+#else
+FILEFLAGS 0x0L
+#endif
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE 0x0L
+BEGIN
+BLOCK "StringFileInfo"
+BEGIN
+BLOCK "040904b0" // English (US) + Unicode
+BEGIN
+VALUE "CompanyName", "Roozegaar"
+VALUE "FileDescription", "Roozegaar Calendar"
+VALUE "FileVersion", "1.0.0.0"
+VALUE "InternalName", "RoozegaarCalendar.exe"
+VALUE "LegalCopyright", "© 2026 Roozegaar"
+VALUE "OriginalFilename", "RoozegaarCalendar.exe"
+VALUE "ProductName", "Roozegaar Calendar"
+VALUE "ProductVersion", "1.0.0.0"
+END
+END
+BLOCK "VarFileInfo"
+BEGIN
+VALUE "Translation", 0x0409, 1200
+END
+END
